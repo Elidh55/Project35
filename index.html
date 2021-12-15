@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+    <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyAF-VxBt1WC2jnSz9Yxte9Wa4Giw93MYBc",
+      authDomain: "ballgame-a3b4f.firebaseapp.com",
+      databaseURL: "https://ballgame-a3b4f-default-rtdb.firebaseio.com",
+      projectId: "ballgame-a3b4f",
+      storageBucket: "ballgame-a3b4f.appspot.com",
+      messagingSenderId: "7663996938",
+      appId: "1:7663996938:web:16a9e071ea928222cf4ff3"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
